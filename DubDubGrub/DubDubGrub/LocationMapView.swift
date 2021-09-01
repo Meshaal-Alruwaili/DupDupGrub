@@ -6,10 +6,15 @@
 //
 
 import SwiftUI
+import MapKit
 
 struct LocationMapView: View {
+    
+    
     var body: some View {
-        Text("Map View")
+        ZStack {
+//            Map(coordinateRegion: <#T##Binding<MKCoordinateRegion>#>)
+        }
     }
 }
 
